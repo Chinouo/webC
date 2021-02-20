@@ -1,0 +1,140 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    color: #1d1d1f;;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f7;
+    
+}
+
+
+
+
+.web_container > h2{
+    position: relative;
+    text-align: left;
+ 
+    margin-left: 1em;
+    padding-top:0.3em;
+  
+} 
+
+.header{
+    
+    margin: auto;
+    position: relative;
+    background-color:rgb(255,255,255);
+    width: 60em;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+
+.info_container{
+    direction: rtl;
+    list-style: none;
+    padding:1em;
+    margin: 0 0 0 0;
+    
+}
+
+.item{
+    display: inline-block;
+    font-size: 150%;
+}
+
+.module{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 60em;
+    height: 15em;
+    background-color: rgb(255,255,255);
+    border-radius: 18px;
+    visibility: hidden;
+}
+
+.web_container{
+    margin: auto;
+
+    width: 60em;
+    background-color: rgb(255,255,255);
+    border-radius: 18px;
+    transition-duration: .5s;
+    animation: In .5s ease-out;
+}
+
+.web_container:hover{
+    transform: translate(-2px,-1px);
+    box-shadow: 2px 2px 5px 1px rgb(211, 211, 211);
+    transition-duration: .5s;
+    
+    
+}
+
+.url_style{
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #f5f5f7;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+    color:grey;
+    transition-duration: .5s;
+    width: 9em;
+
+    
+    
+}
+
+.url_style:hover{
+    transform: translateY(-2px);
+    transition-duration: .5s;
+}
+
+.url_style:hover:active{
+    color: hotpink;
+    align-items: center;
+}
+
+
+
+
+
+.icon{
+    vertical-align: middle;
+   
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom:2.8px;
+    width: 11px;
+    height: 11px;
+}
+
+.des{
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+
+@keyframes In{
+    from{
+        opacity: 0;
+        transform:translateY(-15px);
+    }
+    to{
+        transform:translateY(0px);
+    }
+    
+}
+
+h2{
+    animation: In .5s ease-out;
+}
